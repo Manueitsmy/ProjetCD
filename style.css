@@ -1,0 +1,40 @@
+body {
+	background-image: url(https://images.sudouest.fr/2020/02/28/5e58eaa166a4bd3229fac48a/golden/la-gratuite-des-transports.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+.box-container {
+	width: 600 px
+	height: 600 px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	color: white;
+}
+
+#city {
+	background-color: #AE8DEA
+}
+
+#temp {
+	background-color: #380790
+}
+
+#humidity {
+	background-color: #8A6EBC
+}
+
+#wind {
+	background-color: #732CF0
+}
