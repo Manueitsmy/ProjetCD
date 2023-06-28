@@ -4,13 +4,13 @@ function RecupereMeteo(){
 	fetch(url).then((response) =>response.json().then((data) => {
 		console.log(data);
 		document.querySelector('#city').innerHTML = data.name + '<BR> <img src="https://openweathermap.org/img/wn/'+data.weather[0].icon+'@2x.png" alt="'+data.weather[0].description+'">';
-		document.querySelector('#temp').innerHTML = data.weather[0].description;
-		document.querySelector('#humidity').innerHTML = data.name;
-		document.querySelector('#wind').innerHTML = data.name;
-
+		document.querySelector('#temp').innerHTML = data.main.temp + "°C<br><br><br>" + data.weather[0].description;
+		document.querySelector('#humidity').innerHTML = data.main.humidity + "%" + '<br> <img src="img/goutte.png">';
+		
 		})
 	);
 }
+
 
 var xmlhttp = new XMLHttpRequest();
 
