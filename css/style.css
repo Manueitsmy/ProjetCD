@@ -37,6 +37,8 @@ body {
 }
 
 #city {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 	background-color: #E9E9F2;
 	margin-top: 25px;
 }
@@ -47,5 +49,7 @@ body {
 
 #humidity {
 	background-color: #EBEBF9;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 
