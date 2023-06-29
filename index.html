@@ -3,29 +3,23 @@
 	<head>
 		<title>Météo TC</title>
 		<meta charset="utf-8">
+		<!-- inclusion de la feuille de style -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- rafraîchissement automatique toutes les heures -->
 		<meta http-equiv="refresh" content="3600">
 	</head>
 	<body>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-12 col-sm-6 my-3">
-					<form>
-						<div class="form-group">
-						</div>
-					</form>
-
-									
-							<div id="city" class="box"></div>
-							<div id="temp" class="box"></div>
-							<div id="humidity" class="box"></div>
-						
-					
-				</div>
-			</div>
+		
+		<div>
+			<!-- définition des differents encarts alimentés par le javascript-->				
+			<div id="city" class="box"></div>
+			<div id="temp" class="box"></div>
+			<div id="humidity" class="box"></div>
+				
 		</div>
-
-	<script src="js/meteo.js"></script>
+	
+		<!-- inclusion du script javascript -->
+		<script src="js/meteo.js"></script>
 
 		
 	</body>
